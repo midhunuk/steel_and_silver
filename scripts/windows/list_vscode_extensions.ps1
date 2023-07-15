@@ -1,3 +1,3 @@
-Set-Location $PSScriptRootls
+Set-Location $PSScriptRoot
 
-code --list-extensions >> ..\..\config\vscode\extensions.txt
+code --list-extensions > ..\..\config\vscode\extensions.txt

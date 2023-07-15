@@ -25,5 +25,20 @@
     {
         "key": "ctrl+v",
         "command": "-editor.action.clipboardPasteAction"
+    },
+
+    //Neovim specific 
+    //for escpace key jj and jk, second one cannot be created without the first one
+    {
+        "command": "vscode-neovim.compositeEscape1",
+        "key": "j",
+        "when": "neovim.mode == insert && editorTextFocus",
+        "args": "j"
+    },
+    {
+        "command": "vscode-neovim.compositeEscape2",
+        "key": "k",
+        "when": "neovim.mode == insert && editorTextFocus",
+        "args": "k"
     }
 ]

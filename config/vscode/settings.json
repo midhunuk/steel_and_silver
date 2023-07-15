@@ -1,4 +1,7 @@
 {
-    "settingsSync.ignoredSettings": []
+    "settingsSync.ignoredSettings": [],
+    //neovim settings
+    "vscode-neovim.neovimExecutablePaths.win32": "C:\\tools\\neovim\\nvim-win64\\bin\\nvim.exe",
+    "vscode-neovim.neovimInitVimPaths.win32": "C:\\Users\\vscode\\AppData\\Local\\nvim\\init.lua"
     //test
 }
