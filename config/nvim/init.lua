@@ -1,1 +1,1 @@
-print("init nvim config")
+require('core/options')
